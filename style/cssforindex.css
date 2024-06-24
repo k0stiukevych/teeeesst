@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1d1d1d;
+}
+
+a {
+    display: block;
+    background-color: #18c8ebb4;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 340px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfc;
+    width: 340px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.text-smile {
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.first-text {
+    padding: 10px;
+}
+
+.to-end {
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.span-smile {
+    display: inline-block;
+    transition: transform 0.5s, color 0.5s;
+    color: #fcfcfc;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    color: gold;
+}
